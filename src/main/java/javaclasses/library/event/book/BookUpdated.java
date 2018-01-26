@@ -1,5 +1,6 @@
 package javaclasses.library.event.book;
 
+import javaclasses.library.book.BookVO;
 import javaclasses.library.tinytype.BookId;
 
 public class BookUpdated {

@@ -1,4 +1,4 @@
-package javaclasses.library.event.book;
+package javaclasses.library.book;
 
 import javaclasses.library.tinytype.BookDescription;
 import javaclasses.library.tinytype.BookId;
