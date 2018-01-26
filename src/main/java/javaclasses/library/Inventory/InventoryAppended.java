@@ -1,14 +1,14 @@
 package javaclasses.library.Inventory;
 
-import javaclasses.library.tinytype.BookId;
+import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.InventoryId;
 
 public class InventoryAppended {
-    private final BookId bookId;
+    private final InventoryItemId inventoryItemId;
     private final InventoryId inventoryId;
 
-    public InventoryAppended(BookId bookId, InventoryId inventoryId) {
-        this.bookId = bookId;
+    public InventoryAppended(InventoryItemId inventoryItemId, InventoryId inventoryId) {
+        this.inventoryItemId = inventoryItemId;
         this.inventoryId = inventoryId;
     }
 
@@ -16,7 +16,7 @@ public class InventoryAppended {
         return inventoryId;
     }
 
-    public BookId getBookId() {
-        return bookId;
+    public InventoryItemId getInventoryItemId() {
+        return inventoryItemId;
     }
 }

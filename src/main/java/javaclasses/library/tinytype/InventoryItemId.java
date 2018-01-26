@@ -1,9 +1,9 @@
 package javaclasses.library.tinytype;
 
-public class BookId {
+public class InventoryItemId {
     final private long id;
 
-    public BookId(long id) {
+    public InventoryItemId(long id) {
         this.id = id;
     }
 }

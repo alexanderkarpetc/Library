@@ -1,22 +1,22 @@
 package javaclasses.library.Inventory;
 
-import javaclasses.library.tinytype.BookId;
+import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.UserId;
 
 public class BookMarkedAsBorrowed {
-    private final BookId bookId;
+    private final InventoryItemId inventoryItemId;
     private final InventoryId inventoryId;
     private final UserId userId;
 
-    public BookMarkedAsBorrowed(BookId bookId, InventoryId inventoryId, UserId userId) {
-        this.bookId = bookId;
+    public BookMarkedAsBorrowed(InventoryItemId inventoryItemId, InventoryId inventoryId, UserId userId) {
+        this.inventoryItemId = inventoryItemId;
         this.inventoryId = inventoryId;
         this.userId = userId;
     }
 
-    public BookId getBookId() {
-        return bookId;
+    public InventoryItemId getInventoryItemId() {
+        return inventoryItemId;
     }
 
     public InventoryId getInventoryId() {
