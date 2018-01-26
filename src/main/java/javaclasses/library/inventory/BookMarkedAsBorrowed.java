@@ -1,7 +1,7 @@
 package javaclasses.library.inventory;
 
-import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.InventoryId;
+import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.UserId;
 
 public class BookMarkedAsBorrowed {
