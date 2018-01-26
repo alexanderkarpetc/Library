@@ -1,4 +1,4 @@
-package javaclasses.library.book;
+package javaclasses.library.event.book;
 
 public class BookAdded {
 

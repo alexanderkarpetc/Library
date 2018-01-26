@@ -1,4 +1,4 @@
-package javaclasses.library.inventory;
+package javaclasses.library.event.inventory;
 
 import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.InventoryId;

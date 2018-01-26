@@ -1,13 +1,13 @@
-package javaclasses.library.inventory;
+package javaclasses.library.event.inventory;
 
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.UserId;
 
-public class ReservationRemoved {
+public class ReservationCanceled {
     private final InventoryId inventoryId;
     private final UserId userId;
 
-    public ReservationRemoved(InventoryId inventoryId, UserId userId) {
+    public ReservationCanceled(InventoryId inventoryId, UserId userId) {
         this.inventoryId = inventoryId;
         this.userId = userId;
     }

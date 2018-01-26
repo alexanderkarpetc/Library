@@ -1,13 +1,13 @@
-package javaclasses.library.inventory;
+package javaclasses.library.event.inventory;
 
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.UserId;
 
-public class ReservationCreated {
+public class ReservationExpired {
     private final InventoryId inventoryId;
     private final UserId userId;
 
-    public ReservationCreated(InventoryId inventoryId, UserId userId) {
+    public ReservationExpired(InventoryId inventoryId, UserId userId) {
         this.inventoryId = inventoryId;
         this.userId = userId;
     }
