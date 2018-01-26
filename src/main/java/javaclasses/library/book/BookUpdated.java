@@ -21,4 +21,12 @@ public class BookUpdated {
     public BookId getId() {
         return id;
     }
+
+    public BookDescription getNewDescription() {
+        return newDescription;
+    }
+
+    public List<String> getCategory() {
+        return category;
+    }
 }
