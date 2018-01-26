@@ -1,15 +1,16 @@
 package javaclasses.library.book;
 
+import javaclasses.library.tinytype.BookId;
+
 public class BookAdded {
 
-    final private BookVO bookVO;
+    final private BookId bookId;
 
-
-    public BookAdded(BookVO bookVO) {
-        this.bookVO = bookVO;
+    public BookAdded(BookId bookId) {
+        this.bookId = bookId;
     }
 
-    public BookVO getBookVO() {
-        return bookVO;
+    public BookId getBookId() {
+        return bookId;
     }
 }
