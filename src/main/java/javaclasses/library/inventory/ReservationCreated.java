@@ -1,13 +1,13 @@
-package javaclasses.library.Inventory;
+package javaclasses.library.inventory;
 
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.UserId;
 
-public class ReservationRemoved {
+public class ReservationCreated {
     private final InventoryId inventoryId;
     private final UserId userId;
 
-    public ReservationRemoved(InventoryId inventoryId, UserId userId) {
+    public ReservationCreated(InventoryId inventoryId, UserId userId) {
         this.inventoryId = inventoryId;
         this.userId = userId;
     }

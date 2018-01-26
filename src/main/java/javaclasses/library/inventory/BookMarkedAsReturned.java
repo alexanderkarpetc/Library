@@ -1,15 +1,15 @@
-package javaclasses.library.Inventory;
+package javaclasses.library.inventory;
 
 import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.InventoryId;
 
-public class InventoryAppended {
-    private final InventoryItemId inventoryItemId;
+public class BookMarkedAsReturned {
     private final InventoryId inventoryId;
+    private final InventoryItemId inventoryItemId;
 
-    public InventoryAppended(InventoryItemId inventoryItemId, InventoryId inventoryId) {
-        this.inventoryItemId = inventoryItemId;
+    public BookMarkedAsReturned(InventoryId inventoryId, InventoryItemId inventoryItemId) {
         this.inventoryId = inventoryId;
+        this.inventoryItemId = inventoryItemId;
     }
 
     public InventoryId getInventoryId() {
