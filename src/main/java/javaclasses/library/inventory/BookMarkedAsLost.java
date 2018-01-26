@@ -8,6 +8,7 @@ public class BookMarkedAsLost {
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
     private final UserId userId;
+
     public BookMarkedAsLost(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
