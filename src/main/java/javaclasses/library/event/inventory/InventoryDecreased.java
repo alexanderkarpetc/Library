@@ -1,18 +1,16 @@
-package javaclasses.library.inventory;
+package javaclasses.library.event.inventory;
 
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.InventoryItemId;
-import javaclasses.library.tinytype.UserId;
 
-public class BookMarkedAsBorrowed {
+public class InventoryDecreased {
     private final InventoryItemId inventoryItemId;
     private final InventoryId inventoryId;
-    private final UserId userId;
 
-    public BookMarkedAsBorrowed(InventoryItemId inventoryItemId, InventoryId inventoryId, UserId userId) {
+    public InventoryDecreased(InventoryItemId inventoryItemId, InventoryId inventoryId) {
         this.inventoryItemId = inventoryItemId;
         this.inventoryId = inventoryId;
-        this.userId = userId;
+
     }
 
     public InventoryItemId getInventoryItemId() {
@@ -21,9 +19,5 @@ public class BookMarkedAsBorrowed {
 
     public InventoryId getInventoryId() {
         return inventoryId;
-    }
-
-    public UserId getUserId() {
-        return userId;
     }
 }

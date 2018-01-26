@@ -1,26 +1,26 @@
-package javaclasses.library.inventory;
+package javaclasses.library.event.inventory;
 
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.UserId;
 
-public class BookReadyToPickup {
-    private final InventoryId inventoryId;
+public class BookMarkedAsBorrowed {
     private final InventoryItemId inventoryItemId;
+    private final InventoryId inventoryId;
     private final UserId userId;
 
-    public BookReadyToPickup(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId) {
-        this.inventoryId = inventoryId;
+    public BookMarkedAsBorrowed(InventoryItemId inventoryItemId, InventoryId inventoryId, UserId userId) {
         this.inventoryItemId = inventoryItemId;
+        this.inventoryId = inventoryId;
         this.userId = userId;
-    }
-
-    public InventoryId getInventoryId() {
-        return inventoryId;
     }
 
     public InventoryItemId getInventoryItemId() {
         return inventoryItemId;
+    }
+
+    public InventoryId getInventoryId() {
+        return inventoryId;
     }
 
     public UserId getUserId() {
