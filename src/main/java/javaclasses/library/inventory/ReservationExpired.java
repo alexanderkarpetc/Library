@@ -1,4 +1,4 @@
-package javaclasses.library.Inventory;
+package javaclasses.library.inventory;
 
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.UserId;

@@ -1,22 +1,23 @@
-package javaclasses.library.Inventory;
+package javaclasses.library;
+
 
 import javaclasses.library.tinytype.InventoryItemId;
 import javaclasses.library.tinytype.UserId;
 
-public class LoanBecameOverdue {
-    private final UserId userId;
+public class Reservation {
     private final InventoryItemId inventoryItemId;
+    private final UserId userId;
 
-    public LoanBecameOverdue(UserId userId, InventoryItemId inventoryItemId) {
-        this.userId = userId;
+    public Reservation(InventoryItemId inventoryItemId, UserId userId) {
         this.inventoryItemId = inventoryItemId;
-    }
-
-    public UserId getUserId() {
-        return userId;
+        this.userId = userId;
     }
 
     public InventoryItemId getInventoryItemId() {
         return inventoryItemId;
+    }
+
+    public UserId getUserId() {
+        return userId;
     }
 }
