@@ -1,9 +1,9 @@
 package javaclasses.library.tinytype;
 
 public class ISBN {
-    final private int bookCode;
+    final private String bookCode;
 
-    public ISBN(int bookCode) {
+    public ISBN(String bookCode) {
         this.bookCode = bookCode;
     }
 }
