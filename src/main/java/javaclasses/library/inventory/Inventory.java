@@ -1,5 +1,7 @@
-package javaclasses.library;
+package javaclasses.library.inventory;
 
+import javaclasses.library.Reservation;
+import javaclasses.library.Status;
 import javaclasses.library.tinytype.BookId;
 import javaclasses.library.tinytype.InventoryId;
 import javaclasses.library.tinytype.InventoryItemId;
