@@ -4,10 +4,10 @@ import javaclasses.library.tinytype.UserId;
 
 public class Status {
     private UserId userId;
-    private Condition condition;
+    private final Condition condition;
 
-    public Status(UserId userId) {
-        this.userId = userId;
+    public Status(Condition condition) {
+        this.condition = condition;
     }
 
     public Status(UserId userId, Condition condition) {
