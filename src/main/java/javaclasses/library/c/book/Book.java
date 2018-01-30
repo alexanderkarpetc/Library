@@ -1,8 +1,7 @@
 package javaclasses.library.c.book;
 
-import javafx.scene.image.Image;
-
 import java.util.Collection;
+
 
 public class Book {
 
