@@ -1,6 +1,6 @@
 package javaclasses.library.c;
 
-public enum Condition {
+public enum ItemCondition {
     READY_TO_PICK_UP,
     BORROWED,
     LOST,

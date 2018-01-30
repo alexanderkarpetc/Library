@@ -1,7 +1,7 @@
 package javaclasses.library.c.inventory;
 
 import javaclasses.library.c.Reservation;
-import javaclasses.library.c.Status;
+import javaclasses.library.c.ItemStatus;
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.BookId;
 
@@ -13,7 +13,7 @@ import java.util.Map;
 public class Inventory {
     private final InventoryId inventoryId;
     private final BookId bookId;
-    private final Map<InventoryItemId, Status> inventoryItems = new HashMap<>();
+    private final Map<InventoryItemId, ItemStatus> inventoryItems = new HashMap<>();
     private final List<Reservation> reservations = new ArrayList<>();
 
     public Inventory(InventoryId inventoryId, BookId bookId) {
@@ -29,7 +29,7 @@ public class Inventory {
         return bookId;
     }
 
-    public Map<InventoryItemId, Status> getInventoryItems() {
+    public Map<InventoryItemId, ItemStatus> getInventoryItems() {
         return inventoryItems;
     }
 

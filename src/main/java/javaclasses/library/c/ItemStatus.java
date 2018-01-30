@@ -1,15 +1,15 @@
 
 package javaclasses.library.c;
 
-public class Status {
+public class ItemStatus {
     private UserId userId;
-    private final Condition condition;
+    private final ItemCondition condition;
 
-    public Status(Condition condition) {
+    public ItemStatus(ItemCondition condition) {
         this.condition = condition;
     }
 
-    public Status(UserId userId, Condition condition) {
+    public ItemStatus(UserId userId, ItemCondition condition) {
         this.userId = userId;
         this.condition = condition;
     }
@@ -18,7 +18,7 @@ public class Status {
         return userId;
     }
 
-    public Condition getCondition() {
+    public ItemCondition getCondition() {
         return condition;
     }
 }
