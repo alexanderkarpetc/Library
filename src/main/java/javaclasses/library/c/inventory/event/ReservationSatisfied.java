@@ -4,6 +4,7 @@ import javaclasses.library.c.UserId;
 import javaclasses.library.c.inventory.InventoryId;
 
 public class ReservationSatisfied {
+
     private final UserId userId;
     private final InventoryId inventoryId;
 

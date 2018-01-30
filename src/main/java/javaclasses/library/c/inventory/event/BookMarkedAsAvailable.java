@@ -1,22 +1,17 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.inventory.InventoryId;
 import javaclasses.library.c.inventory.InventoryItemId;
 
+import java.util.Date;
+
 public class BookMarkedAsAvailable {
-    private final InventoryId inventoryId;
+
     private final InventoryItemId inventoryItemId;
+    private final Date date;
 
-    public BookMarkedAsAvailable(InventoryId inventoryId, InventoryItemId inventoryItemId) {
-        this.inventoryId = inventoryId;
+
+    public BookMarkedAsAvailable(InventoryItemId inventoryItemId, Date date) {
         this.inventoryItemId = inventoryItemId;
-    }
-
-    public InventoryId getInventoryId() {
-        return inventoryId;
-    }
-
-    public InventoryItemId getInventoryItemId() {
-        return inventoryItemId;
+        this.date = date;
     }
 }
