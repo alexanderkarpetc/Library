@@ -1,7 +1,9 @@
 package javaclasses.library.q.reader;
 
 import javaclasses.library.c.book.Author;
+import javaclasses.library.c.book.BookStatus;
 import javaclasses.library.c.book.BookTitle;
+
 public class BookView {
     private byte[] image;
     private BookTitle title;
