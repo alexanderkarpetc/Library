@@ -1,11 +1,12 @@
 package javaclasses.library.q.librarian;
 
+import javaclasses.library.q.LoanCondition;
 import javaclasses.library.q.librarian.valueobjects.InventoryVO;
-import javaclasses.library.q.LoanStatus;
+
+import java.util.HashMap;
 
 public class InventoryView {
 
-    private InventoryVO inventoryVO;
-    private LoanStatus status;
+    private HashMap<InventoryVO, LoanCondition> books;
 
 }
