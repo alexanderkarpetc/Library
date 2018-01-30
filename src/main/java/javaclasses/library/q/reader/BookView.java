@@ -2,12 +2,12 @@ package javaclasses.library.q.reader;
 
 import javaclasses.library.c.book.Author;
 import javaclasses.library.c.book.BookTitle;
-
-public class BookVO {
+//Todo maybe bookview
+public class BookView {
     private byte[] image;
     private BookTitle title;
     private Author author;
     //Todo: bookStatus
-    private Status status;
+    private BookStatus status;
 
 }
