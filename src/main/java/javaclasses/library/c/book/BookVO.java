@@ -3,6 +3,7 @@ package javaclasses.library.c.book;
 import java.util.List;
 
 public class BookVO {
+
     final private BookId id;
     final private BookDescription description;
     final private List<String> category;

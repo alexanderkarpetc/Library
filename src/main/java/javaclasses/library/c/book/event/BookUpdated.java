@@ -1,24 +1,22 @@
 package javaclasses.library.c.book.event;
 
+import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.BookVO;
-import javaclasses.library.c.book.BookId;
+
+import java.util.Date;
 
 public class BookUpdated {
 
 
-    final private BookId id;
-    final private BookVO bookVO;
+    private final BookVO currentBookVO;
+    private final BookVO newBookVO;
+    private final UserId userId;
+    private final Date updateDate;
 
-    public BookUpdated(BookId id, BookVO bookVO) {
-        this.id = id;
-        this.bookVO = bookVO;
-    }
-
-    public BookId getId() {
-        return id;
-    }
-
-    public BookVO getBookVO() {
-        return bookVO;
+    public BookUpdated(BookVO currentBookVO, BookVO newBookVO, UserId userId, Date updateDate) {
+        this.currentBookVO = currentBookVO;
+        this.newBookVO = newBookVO;
+        this.userId = userId;
+        this.updateDate = updateDate;
     }
 }

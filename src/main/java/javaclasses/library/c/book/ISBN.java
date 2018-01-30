@@ -1,9 +1,10 @@
 package javaclasses.library.c.book;
 
 public class ISBN {
-    final private String bookCode;
 
-    public ISBN(String bookCode) {
-        this.bookCode = bookCode;
+    final private String isbn;
+
+    public ISBN(String isbn) {
+        this.isbn = isbn;
     }
 }
