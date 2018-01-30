@@ -6,5 +6,5 @@ import java.util.List;
 
 public class Readers {
     private List<UserVO> users;
-    
+
 }
