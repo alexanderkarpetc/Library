@@ -9,16 +9,16 @@ public class Book {
     final private ISBN isbn;
     final private Image cover;
     final private BookTitle title;
-    final private Author author;
+    private final Collection<Author> authors;
     final private BookDescription description;
     final private Collection<Category> category;
 
-    public Book(BookId id, ISBN isbn, Image cover, BookTitle title, Author author, BookDescription description, Collection<Category> category) {
+    public Book(BookId id, ISBN isbn, Image cover, BookTitle title, Collection<Author> authors, BookDescription description, Collection<Category> category) {
         this.id = id;
         this.isbn = isbn;
         this.cover = cover;
         this.title = title;
-        this.author = author;
+        this.authors = authors;
         this.description = description;
         this.category = category;
     }
