@@ -1,8 +1,5 @@
 package javaclasses.library.book;
 
-import javaclasses.library.tinytype.BookDescription;
-import javaclasses.library.tinytype.BookId;
-
 import java.util.List;
 
 public class BookVO {

@@ -1,4 +1,4 @@
-package javaclasses.library.tinytype;
+package javaclasses.library;
 
 public class UserId {
     private final long id;

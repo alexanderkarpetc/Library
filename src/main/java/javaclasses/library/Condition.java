@@ -1,8 +1,8 @@
 package javaclasses.library;
 
 public enum Condition {
-    IN_LIBRATY,
+    READY_TO_PICK_UP,
     BORROWED,
-    ARRIVE_SOON,
+    LOST,
     AVAILABLE
 }

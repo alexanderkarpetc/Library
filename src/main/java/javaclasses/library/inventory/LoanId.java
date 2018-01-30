@@ -1,4 +1,4 @@
-package javaclasses.library.tinytype;
+package javaclasses.library.inventory;
 
 public class LoanId {
     final private long id;

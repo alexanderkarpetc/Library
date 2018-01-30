@@ -1,7 +1,5 @@
 package javaclasses.library;
 
-import javaclasses.library.tinytype.UserId;
-
 public class Status {
     private UserId userId;
     private final Condition condition;

@@ -1,6 +1,7 @@
-package javaclasses.library.book;
+package javaclasses.library.book.event;
 
-import javaclasses.library.tinytype.BookId;
+import javaclasses.library.book.BookVO;
+import javaclasses.library.book.BookId;
 
 public class BookUpdated {
 

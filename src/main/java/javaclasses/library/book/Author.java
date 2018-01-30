@@ -1,4 +1,4 @@
-package javaclasses.library.tinytype;
+package javaclasses.library.book;
 
 public class Author {
     final private String firstName;

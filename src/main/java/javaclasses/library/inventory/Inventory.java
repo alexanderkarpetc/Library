@@ -2,10 +2,8 @@ package javaclasses.library.inventory;
 
 import javaclasses.library.Reservation;
 import javaclasses.library.Status;
-import javaclasses.library.tinytype.BookId;
-import javaclasses.library.tinytype.InventoryId;
-import javaclasses.library.tinytype.InventoryItemId;
-import javaclasses.library.tinytype.UserId;
+import javaclasses.library.book.BookId;
+import javaclasses.library.UserId;
 
 import java.util.ArrayList;
 import java.util.HashMap;

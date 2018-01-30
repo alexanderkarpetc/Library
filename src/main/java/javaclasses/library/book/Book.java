@@ -1,6 +1,5 @@
 package javaclasses.library.book;
 
-import javaclasses.library.tinytype.*;
 import javafx.scene.image.Image;
 
 import java.util.List;

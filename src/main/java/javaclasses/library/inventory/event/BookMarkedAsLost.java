@@ -1,8 +1,8 @@
-package javaclasses.library.inventory;
+package javaclasses.library.inventory.event;
 
-import javaclasses.library.tinytype.InventoryId;
-import javaclasses.library.tinytype.InventoryItemId;
-import javaclasses.library.tinytype.UserId;
+import javaclasses.library.UserId;
+import javaclasses.library.inventory.InventoryId;
+import javaclasses.library.inventory.InventoryItemId;
 
 public class BookMarkedAsLost {
     private final InventoryId inventoryId;
