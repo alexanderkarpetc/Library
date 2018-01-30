@@ -1,9 +1,20 @@
 package javaclasses.library.c.inventory;
 
-public class LoanId {
-    final private long id;
+import javaclasses.library.c.UserId;
 
-    public LoanId(long id) {
-        this.id = id;
+import java.util.Date;
+
+public class LoanId {
+
+    private final InventoryItemId inventoryItemId;
+    private final UserId userId;
+    private final Date takeOnDate;
+    private final Date dueOnDate;
+
+    public LoanId(InventoryItemId inventoryItemId, UserId userId, Date takeOnDate, Date dueOnDate) {
+        this.inventoryItemId = inventoryItemId;
+        this.userId = userId;
+        this.takeOnDate = takeOnDate;
+        this.dueOnDate = dueOnDate;
     }
 }

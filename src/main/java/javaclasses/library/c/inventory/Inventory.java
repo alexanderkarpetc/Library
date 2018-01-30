@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Inventory {
+
     private final InventoryId inventoryId;
     private final BookId bookId;
     private final Map<InventoryItemId, Status> inventoryItems = new HashMap<>();

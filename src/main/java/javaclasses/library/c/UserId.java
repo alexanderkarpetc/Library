@@ -1,13 +1,10 @@
 package javaclasses.library.c;
 
 public class UserId {
-    private final long id;
 
-    public UserId(long id) {
-        this.id = id;
-    }
+    final private String mail;
 
-    public long getId() {
-        return id;
+    public UserId(String mail) {
+        this.mail = mail;
     }
 }

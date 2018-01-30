@@ -1,9 +1,12 @@
 package javaclasses.library.c.inventory;
 
-public class InventoryId {
-    final private long id;
+import javaclasses.library.c.book.BookId;
 
-    public InventoryId(long id) {
-        this.id = id;
+public class InventoryId {
+
+    private final BookId bookId;
+
+    public InventoryId(BookId bookId) {
+        this.bookId = bookId;
     }
 }
