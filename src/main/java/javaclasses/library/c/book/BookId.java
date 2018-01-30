@@ -1,9 +1,10 @@
 package javaclasses.library.c.book;
 
 public class BookId {
-    final private long id;
 
-    public BookId(long id) {
+    final private String id;
+
+    public BookId(String id) {
         this.id = id;
     }
 }
