@@ -1,4 +1,4 @@
-package javaclasses.library.q.user;
+package javaclasses.library.q.reader;
 
 import javaclasses.library.c.Status;
 import javaclasses.library.c.UserId;
