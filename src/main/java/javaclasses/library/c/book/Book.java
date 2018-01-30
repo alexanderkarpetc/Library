@@ -5,6 +5,7 @@ import javafx.scene.image.Image;
 import java.util.Collection;
 
 public class Book {
+
     final private BookId id;
     final private ISBN isbn;
     final private Image cover;

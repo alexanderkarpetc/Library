@@ -1,23 +1,16 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.UserId;
-import javaclasses.library.c.inventory.InventoryId;
+import javaclasses.library.c.inventory.LoanId;
+
+import java.util.Date;
 
 public class LoanBecameOverdue {
-    private final UserId userId;
-    private final InventoryId inventoryId;
 
-    public LoanBecameOverdue(UserId userId, InventoryId inventoryId) {
-        this.userId = userId;
-        this.inventoryId = inventoryId;
+    private final LoanId loanId;
+    private final Date overdueDate;
+
+    public LoanBecameOverdue(LoanId loanId, Date overdueDate) {
+        this.loanId = loanId;
+        this.overdueDate = overdueDate;
     }
-
-    public InventoryId getInventoryId() {
-        return inventoryId;
-    }
-
-    public UserId getUserId() {
-        return userId;
-    }
-
 }

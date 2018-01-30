@@ -1,23 +1,22 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.inventory.InventoryId;
+import javaclasses.library.c.Reason;
+import javaclasses.library.c.UserId;
 import javaclasses.library.c.inventory.InventoryItemId;
 
+import java.util.Date;
+
 public class InventoryDecreased {
+
     private final InventoryItemId inventoryItemId;
-    private final InventoryId inventoryId;
+    private final UserId userId;
+    private final Date date;
+    private final Reason reason;
 
-    public InventoryDecreased(InventoryItemId inventoryItemId, InventoryId inventoryId) {
+    public InventoryDecreased(InventoryItemId inventoryItemId, UserId userId, Date date, Reason reason) {
         this.inventoryItemId = inventoryItemId;
-        this.inventoryId = inventoryId;
-
-    }
-
-    public InventoryItemId getInventoryItemId() {
-        return inventoryItemId;
-    }
-
-    public InventoryId getInventoryId() {
-        return inventoryId;
+        this.userId = userId;
+        this.date = date;
+        this.reason = reason;
     }
 }

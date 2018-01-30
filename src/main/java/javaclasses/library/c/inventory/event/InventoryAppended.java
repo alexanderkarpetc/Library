@@ -1,22 +1,19 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.inventory.InventoryId;
+import javaclasses.library.c.UserId;
 import javaclasses.library.c.inventory.InventoryItemId;
 
+import java.util.Date;
+
 public class InventoryAppended {
+
     private final InventoryItemId inventoryItemId;
-    private final InventoryId inventoryId;
+    private final UserId userId;
+    private final Date date;
 
-    public InventoryAppended(InventoryItemId inventoryItemId, InventoryId inventoryId) {
+    public InventoryAppended(InventoryItemId inventoryItemId, UserId userId, Date date) {
         this.inventoryItemId = inventoryItemId;
-        this.inventoryId = inventoryId;
-    }
-
-    public InventoryId getInventoryId() {
-        return inventoryId;
-    }
-
-    public InventoryItemId getInventoryItemId() {
-        return inventoryItemId;
+        this.userId = userId;
+        this.date = date;
     }
 }
