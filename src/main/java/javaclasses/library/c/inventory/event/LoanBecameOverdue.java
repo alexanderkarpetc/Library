@@ -1,15 +1,15 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.inventory.LoanId;
+import javaclasses.library.c.inventory.Loan;
 
 import java.util.Date;
 
 public class LoanBecameOverdue {
 
-    private final LoanId loanId;
+    private final Loan loanId;
     private final Date overdueDate;
 
-    public LoanBecameOverdue(LoanId loanId, Date overdueDate) {
+    public LoanBecameOverdue(Loan loanId, Date overdueDate) {
         this.loanId = loanId;
         this.overdueDate = overdueDate;
     }
