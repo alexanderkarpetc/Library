@@ -1,6 +1,6 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.inventory.LoanId;
+import javaclasses.library.c.inventory.Loan;
 
 import java.util.Date;
 

@@ -18,6 +18,4 @@ public class InventoryVO {
         this.avaliableItems = avaliableItems;
         this.itemsSize = itemsSize;
     }
-
-
 }

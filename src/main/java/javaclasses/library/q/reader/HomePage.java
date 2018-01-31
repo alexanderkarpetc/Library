@@ -1,13 +1,11 @@
 package javaclasses.library.q.reader;
 
-import javaclasses.library.c.ItemStatus;
 import javaclasses.library.c.UserId;
+import javaclasses.library.c.book.BookStatus;
 import javaclasses.library.c.book.BookVO;
 import javaclasses.library.c.book.Category;
 
-import java.util.Collection;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Represents home page. Books are sorted according to their status:
@@ -19,8 +17,8 @@ import java.util.TreeMap;
  * (or maybe some more sorting: for example for new hot books)
  */
 public class HomePage {
-    private Map<BookVO, ItemStatus> books = new TreeMap<>();
+
+    private List<BookView> books = new ArrayList<>();
     private Collection<Category> categories;
-    private UserId currentUser;
 
 }

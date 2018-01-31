@@ -16,6 +16,7 @@ public class Inventory {
     private final BookId bookId;
     private final Map<InventoryItemId, ItemStatus> inventoryItems = new HashMap<>();
     private final List<Reservation> reservations = new ArrayList<>();
+    private final List<Loan> loans = new ArrayList<>();
 
     public Inventory(InventoryId inventoryId, BookId bookId) {
         this.inventoryId = inventoryId;

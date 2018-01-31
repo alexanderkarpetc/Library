@@ -1,18 +1,14 @@
 package javaclasses.library.c.book;
 
-import java.util.List;
-
 public class BookVO {
 
-    private final BookId id;
-    private final BookDescription description;
-    private final List<Category> category;
-
-    public BookVO(BookId id, BookDescription description, List<Category> category) {
-        this.id = id;
-        this.description = description;
-        this.category = category;
+    private final Image cover;
+    private final BookTitle title;
+    private final Author author;
+  
+    public BookVO(Image cover, BookTitle title, Author author) {
+        this.cover = cover;
+        this.title = title;
+        this.author = author;
     }
-
-
 }

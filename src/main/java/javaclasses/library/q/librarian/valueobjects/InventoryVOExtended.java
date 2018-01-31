@@ -9,18 +9,9 @@ import java.util.List;
 import java.util.Map;
 
 public class InventoryVOExtended {
-
-    private final BookTitle bookTitle;
-    private final List<Author> authors;
-    private final int avaliableItems;
-    private final int itemsSize;
-    private final Map<InventoryItemId, ItemStatus> items;
-
-    public InventoryVOExtended(BookTitle bookTitle, List<Author> authors, int avaliableItems, int itemsSize, Map<InventoryItemId, ItemStatus> items) {
-        this.bookTitle = bookTitle;
-        this.authors = authors;
-        this.avaliableItems = avaliableItems;
-        this.itemsSize = itemsSize;
-        this.items = items;
-    }
+    private final List<LoanVO> loans;
+  
+ public InventoryVOExtended(List<LoanVO> loans){
+   this.loans = loans;
+ }
 }
