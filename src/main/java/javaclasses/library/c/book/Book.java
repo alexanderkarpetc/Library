@@ -5,13 +5,13 @@ import java.util.Collection;
 
 public class Book {
 
-    final private BookId id;
-    final private ISBN isbn;
-    final private Image cover;
-    final private BookTitle title;
+    private final BookId id;
+    private final ISBN isbn;
+    private final Image cover;
+    private final BookTitle title;
     private final Collection<Author> authors;
-    final private BookDescription description;
-    final private Collection<Category> category;
+    private final BookDescription description;
+    private final Collection<Category> category;
 
     public Book(BookId id, ISBN isbn, Image cover, BookTitle title, Collection<Author> authors, BookDescription description, Collection<Category> category) {
         this.id = id;

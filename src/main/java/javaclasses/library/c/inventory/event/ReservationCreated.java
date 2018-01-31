@@ -7,10 +7,10 @@ import java.util.Date;
 
 public class ReservationCreated {
 
-    final private InventoryId inventoryId;
-    final private UserId userId;
-    final private Date creationDate;
-    final private Date expectedOnDate;
+    private final InventoryId inventoryId;
+    private final UserId userId;
+    private final Date creationDate;
+    private final Date expectedOnDate;
 
     public ReservationCreated(InventoryId inventoryId, UserId userId, Date creationDate, Date expectedOnDate) {
         this.inventoryId = inventoryId;

@@ -7,9 +7,9 @@ import java.util.Date;
 
 public class ReservationCanceled {
 
-    final private InventoryId inventoryId;
-    final private UserId userId;
-    final private Date cancelationDate;
+    private final InventoryId inventoryId;
+    private final UserId userId;
+    private final Date cancelationDate;
 
     public ReservationCanceled(InventoryId inventoryId, UserId userId, Date cancelationDate) {
         this.inventoryId = inventoryId;

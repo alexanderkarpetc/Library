@@ -2,7 +2,7 @@ package javaclasses.library.c.book;
 
 public class BookTitle {
 
-    final private String title;
+    private final String title;
 
     public BookTitle(String title) {
         this.title = title;
