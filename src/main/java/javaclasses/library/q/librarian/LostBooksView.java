@@ -6,6 +6,9 @@ import java.util.List;
 
 public class LostBooksView {
 
-    List<LostBook> lostBooks;
+   private final List<LostBook> lostBooks;
 
+    public LostBooksView(List<LostBook> lostBooks) {
+        this.lostBooks = lostBooks;
+    }
 }
