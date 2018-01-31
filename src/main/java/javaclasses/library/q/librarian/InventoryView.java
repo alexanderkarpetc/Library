@@ -6,6 +6,9 @@ import java.util.List;
 
 public class InventoryView {
 
-    private List<InventoryVO> books;
+    private final List<InventoryVO> books;
 
+    public InventoryView(List<InventoryVO> books) {
+        this.books = books;
+    }
 }
