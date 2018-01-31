@@ -1,9 +1,7 @@
 package javaclasses.library.q.librarian;
 
-import javaclasses.library.c.inventory.Inventory;
-import javaclasses.library.c.inventory.InventoryItemId;
-import javaclasses.library.c.inventory.Loan;
 import javaclasses.library.q.librarian.valueobjects.InventoryVO;
+import javaclasses.library.q.librarian.valueobjects.LoanVO;
 
 import java.util.List;
 
