@@ -13,11 +13,4 @@ public class ReservationSatisfied {
         this.inventoryId = inventoryId;
     }
 
-    public UserId getUserId() {
-        return userId;
-    }
-
-    public InventoryId getInventoryId() {
-        return inventoryId;
-    }
 }

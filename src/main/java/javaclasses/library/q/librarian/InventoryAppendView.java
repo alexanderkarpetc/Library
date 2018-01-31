@@ -6,9 +6,9 @@ import java.util.Collection;
 
 public class InventoryAppendView {
 
+    private final Collection<InventoryItemId> inventoryItemIds;
+
     public InventoryAppendView(Collection<InventoryItemId> inventoryItemIds) {
         this.inventoryItemIds = inventoryItemIds;
     }
-
-    private final Collection<InventoryItemId> inventoryItemIds;
 }

@@ -8,10 +8,10 @@ import java.util.Date;
 
 public class BookRemoved {
 
-    final private BookId bookId;
-    final private UserId userkId;
-    final private Date removalDate;
-    final private Reason removalReason;
+    private final BookId bookId;
+    private final UserId userkId;
+    private final Date removalDate;
+    private final Reason removalReason;
 
 
     public BookRemoved(BookId bookId, UserId userkId, Date removalDate, Reason removalReason) {
