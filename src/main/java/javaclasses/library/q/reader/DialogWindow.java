@@ -1,5 +1,9 @@
 package javaclasses.library.q.reader;
 
 public class DialogWindow {
-    private BookView book;
+    private final BookView book;
+
+    public DialogWindow(BookView book) {
+        this.book = book;
+    }
 }

@@ -8,9 +8,15 @@ import javaclasses.library.c.book.Image;
 import java.util.List;
 
 public class BookView {
-    private Image image;
-    private BookTitle title;
-    private List<Author> author;
-    private BookStatus status;
+    private final Image image;
+    private final BookTitle title;
+    private final List<Author> author;
+    private final BookStatus status;
 
+    public BookView(Image image, BookTitle title, List<Author> author, BookStatus status) {
+        this.image = image;
+        this.title = title;
+        this.author = author;
+        this.status = status;
+    }
 }

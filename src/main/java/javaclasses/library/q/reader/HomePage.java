@@ -2,7 +2,9 @@ package javaclasses.library.q.reader;
 
 import javaclasses.library.c.book.Category;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 /**
  * Represents home page. Books are sorted according to their status:
@@ -15,7 +17,10 @@ import java.util.*;
  */
 public class HomePage {
 
-    private List<BookView> books = new ArrayList<>();
-    private Collection<Category> categories;
+    private final List<BookView> books = new ArrayList<>();
+    private final Collection<Category> categories;
 
+    public HomePage(Collection<Category> categories) {
+        this.categories = categories;
+    }
 }

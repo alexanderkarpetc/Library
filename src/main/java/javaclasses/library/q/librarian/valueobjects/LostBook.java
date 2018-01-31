@@ -9,9 +9,17 @@ import java.util.Date;
 import java.util.List;
 
 public class LostBook {
-    private InventoryItemId inventoryItemId;
-    private BookTitle bookTitle;
-    private List<Author> authors;
-    private UserId userId;
-    private Date reportedOn;
+    private final InventoryItemId inventoryItemId;
+    private final BookTitle bookTitle;
+    private final List<Author> authors;
+    private final UserId userId;
+    private final Date reportedOn;
+
+    public LostBook(InventoryItemId inventoryItemId, BookTitle bookTitle, List<Author> authors, UserId userId, Date reportedOn) {
+        this.inventoryItemId = inventoryItemId;
+        this.bookTitle = bookTitle;
+        this.authors = authors;
+        this.userId = userId;
+        this.reportedOn = reportedOn;
+    }
 }
