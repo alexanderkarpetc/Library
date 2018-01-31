@@ -13,11 +13,4 @@ public class ReservationExpired {
         this.userId = userId;
     }
 
-    public InventoryId getInventoryId() {
-        return inventoryId;
-    }
-
-    public UserId getUserId() {
-        return userId;
-    }
 }

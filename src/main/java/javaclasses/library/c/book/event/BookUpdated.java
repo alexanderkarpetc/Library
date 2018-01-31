@@ -7,7 +7,6 @@ import java.util.Date;
 
 public class BookUpdated {
 
-
     private final BookVO currentBookVO;
     private final BookVO newBookVO;
     private final UserId userId;

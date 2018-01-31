@@ -6,10 +6,10 @@ import java.util.Date;
 
 public class LoanPeriodExtended {
 
-    final private Loan loanId;
+    private final LoanId loanId;
     private final Date newDueOnDate;
 
-    public LoanPeriodExtended(Loan loanId, Date newDueOnDate) {
+    public LoanPeriodExtended(LoanId loanId, Date newDueOnDate) {
         this.loanId = loanId;
         this.newDueOnDate = newDueOnDate;
     }

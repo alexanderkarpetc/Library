@@ -7,11 +7,11 @@ import java.util.Date;
 
 public class Reservation {
 
-    final private InventoryItemId inventoryItemId;
+    private final InventoryItemId inventoryItemId;
     private final UserId userId;
 
-    final private Date creationDate;
-    final private Date expectedDate;
+    private final Date creationDate;
+    private final Date expectedDate;
 
     public Reservation(InventoryItemId inventoryItemId, UserId userId, Date creationDate, Date expectedDate) {
         this.inventoryItemId = inventoryItemId;

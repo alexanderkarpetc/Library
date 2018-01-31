@@ -7,9 +7,15 @@ import java.util.List;
 
 public class InventoryVO {
 
-    private BookTitle bookTitle;
-    private List<Author> authors;
-    private int avaliableItems;
-    private int itemsSize;
-    private int overdueCount;
+    private final BookTitle bookTitle;
+    private final List<Author> authors;
+    private final int avaliableItems;
+    private final int itemsSize;
+
+    public InventoryVO(BookTitle bookTitle, List<Author> authors, int avaliableItems, int itemsSize) {
+        this.bookTitle = bookTitle;
+        this.authors = authors;
+        this.avaliableItems = avaliableItems;
+        this.itemsSize = itemsSize;
+    }
 }

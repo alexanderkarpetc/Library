@@ -2,7 +2,7 @@ package javaclasses.library.c;
 
 public class UserId {
 
-    final private String mail;
+    private final String mail;
 
     public UserId(String mail) {
         this.mail = mail;

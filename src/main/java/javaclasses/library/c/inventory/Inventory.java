@@ -1,7 +1,7 @@
 package javaclasses.library.c.inventory;
 
-import javaclasses.library.c.Reservation;
 import javaclasses.library.c.ItemStatus;
+import javaclasses.library.c.Reservation;
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.BookId;
 
@@ -21,22 +21,6 @@ public class Inventory {
     public Inventory(InventoryId inventoryId, BookId bookId) {
         this.inventoryId = inventoryId;
         this.bookId = bookId;
-    }
-
-    public InventoryId getInventoryId() {
-        return inventoryId;
-    }
-
-    public BookId getBookId() {
-        return bookId;
-    }
-
-    public Map<InventoryItemId, ItemStatus> getInventoryItems() {
-        return inventoryItems;
-    }
-
-    public List<Reservation> getReservations() {
-        return reservations;
     }
 
     public boolean borrowBook(UserId userId, InventoryItemId inventoryItemId) {
