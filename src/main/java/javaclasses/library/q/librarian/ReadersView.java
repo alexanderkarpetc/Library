@@ -4,7 +4,7 @@ import javaclasses.library.q.librarian.valueobjects.UserVO;
 
 import java.util.List;
 
-public class Readers {
+public class ReadersView {
     private List<UserVO> users;
 
 }
