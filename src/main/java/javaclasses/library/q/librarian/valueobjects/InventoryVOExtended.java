@@ -14,6 +14,5 @@ public class InventoryVOExtended {
 
     private BookTitle bookTitle;
     private List<Author> authors;
-//    private Map<InventoryItemId, ItemStatus> items;
-    private List<LoanVO> loans;//Todo [Dima]:do it just do it)
+    private List<LoanVO> loans;
 }
