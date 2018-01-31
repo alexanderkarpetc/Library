@@ -16,6 +16,6 @@ public class InventoryVOExtended {
     private List<Author> authors;
     private int avaliableItems;
     private int itemsSize;
-    private  Map<InventoryItemId, ItemStatus> items;
+    private Map<InventoryItemId, ItemStatus> items;
 
 }
