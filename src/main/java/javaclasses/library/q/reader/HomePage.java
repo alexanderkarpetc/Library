@@ -5,9 +5,7 @@ import javaclasses.library.c.book.BookStatus;
 import javaclasses.library.c.book.BookVO;
 import javaclasses.library.c.book.Category;
 
-import java.util.Collection;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Represents home page. Books are sorted according to their status:
@@ -20,7 +18,7 @@ import java.util.TreeMap;
  */
 public class HomePage {
 
-    private Map<BookVO, BookStatus> books = new TreeMap<>();
+    private List<BookView> books = new ArrayList<>();
     private Collection<Category> categories;
 
 }

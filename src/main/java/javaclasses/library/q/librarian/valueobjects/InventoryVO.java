@@ -11,5 +11,5 @@ public class InventoryVO {
     private List<Author> authors;
     private int avaliableItems;
     private int itemsSize;
-
+    private int overdueCount;
 }

@@ -1,19 +1,17 @@
 package javaclasses.library.q.librarian.valueobjects;
 
-import javaclasses.library.c.ItemStatus;
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.Author;
 import javaclasses.library.c.book.BookTitle;
 import javaclasses.library.c.inventory.InventoryItemId;
 
-import java.util.HashMap;
+import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
-public class InventoryVOExtended {
-
+public class LostBook {
+    private InventoryItemId inventoryItemId;
     private BookTitle bookTitle;
     private List<Author> authors;
-//    private Map<InventoryItemId, ItemStatus> items;
-    private List<LoanVO> loans;//Todo [Dima]:do it just do it)
+    private UserId userId;
+    private Date reportedOn;
 }
