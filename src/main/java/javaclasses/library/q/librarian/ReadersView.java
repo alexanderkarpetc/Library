@@ -1,6 +1,6 @@
 package javaclasses.library.q.librarian;
 
-import javaclasses.library.q.librarian.valueobjects.UserVO;
+import javaclasses.library.q.librarian.valueobject.UserVO;
 
 import java.util.List;
 

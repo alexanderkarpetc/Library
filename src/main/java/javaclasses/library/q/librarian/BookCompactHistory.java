@@ -1,7 +1,7 @@
 package javaclasses.library.q.librarian;
 
 
-import javaclasses.library.q.librarian.valueobjects.LoanVO;
+import javaclasses.library.q.librarian.valueobject.LoanVO;
 
 import java.util.List;
 

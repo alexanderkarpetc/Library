@@ -1,7 +1,7 @@
 package javaclasses.library.q.librarian;
 
 import javaclasses.library.c.book.ImageURL;
-import javaclasses.library.q.librarian.valueobjects.ReservationVO;
+import javaclasses.library.q.librarian.valueobject.ReservationVO;
 
 public class ReservationView {
 

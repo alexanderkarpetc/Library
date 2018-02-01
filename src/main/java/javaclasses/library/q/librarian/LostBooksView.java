@@ -1,6 +1,6 @@
 package javaclasses.library.q.librarian;
 
-import javaclasses.library.q.librarian.valueobjects.LostBook;
+import javaclasses.library.q.librarian.valueobject.LostBook;
 
 import java.util.List;
 

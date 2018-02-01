@@ -1,6 +1,6 @@
 package javaclasses.library.q.librarian;
 
-import javaclasses.library.q.librarian.valueobjects.InventoryVO;
+import javaclasses.library.q.librarian.valueobject.InventoryVO;
 
 import java.util.List;
 
