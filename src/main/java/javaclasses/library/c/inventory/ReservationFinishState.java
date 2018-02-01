@@ -1,4 +1,4 @@
-package javaclasses.library.c;
+package javaclasses.library.c.inventory;
 
 public enum ReservationFinishState {
     USER_CANCEL,

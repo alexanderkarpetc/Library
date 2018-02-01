@@ -1,6 +1,5 @@
 package javaclasses.library.c.inventory;
 
-import javaclasses.library.c.Reservation;
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.BookId;
 
