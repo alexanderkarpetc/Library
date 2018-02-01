@@ -6,17 +6,17 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
-public class InventoryAppended {
+public class BookReturned {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
     private final UserId userId;
-    private final Date whenAppended;
+    private final Date whenReturned;
 
-    public InventoryAppended(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId, Date whenAppended) {
+    public BookReturned(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId, Date whenReturned) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
         this.userId = userId;
-        this.whenAppended = whenAppended;
+        this.whenReturned = whenReturned;
     }
 }

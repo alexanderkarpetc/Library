@@ -1,22 +1,20 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.UserId;
 import javaclasses.library.c.inventory.InventoryId;
 import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
-public class InventoryAppended {
+public class BookBecameAvailable {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId userId;
-    private final Date whenAppended;
+    private final Date whenBecame;
 
-    public InventoryAppended(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId, Date whenAppended) {
+
+    public BookBecameAvailable(InventoryId inventoryId, InventoryItemId inventoryItemId, Date whenBecame) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.userId = userId;
-        this.whenAppended = whenAppended;
+        this.whenBecame = whenBecame;
     }
 }

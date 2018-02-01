@@ -1,4 +1,3 @@
-
 package javaclasses.library.c;
 
 public class ItemStatus {
