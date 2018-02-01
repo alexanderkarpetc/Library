@@ -6,6 +6,9 @@ import javaclasses.library.q.librarian.valueobjects.LoanVO;
 import java.util.Map;
 
 public class UserHistory {
-    private Map<LoanVO, BookTitle> loans;
+    private final Map<LoanVO, BookTitle> loans;
 
+    public UserHistory(Map<LoanVO, BookTitle> loans) {
+        this.loans = loans;
+    }
 }

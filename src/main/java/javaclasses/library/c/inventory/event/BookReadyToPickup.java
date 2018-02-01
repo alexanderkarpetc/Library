@@ -10,13 +10,13 @@ public class BookReadyToPickup {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId nextInQueue;
-    private final Date date;
+    private final UserId forWhom;
+    private final Date when;
 
-    public BookReadyToPickup(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId nextInQueue, Date date) {
+    public BookReadyToPickup(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId forWhom, Date when) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.nextInQueue = nextInQueue;
-        this.date = date;
+        this.forWhom = forWhom;
+        this.when = when;
     }
 }

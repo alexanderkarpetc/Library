@@ -1,15 +1,15 @@
 package javaclasses.library.q.librarian;
 
-import javaclasses.library.c.book.Image;
+import javaclasses.library.c.book.ImageURL;
 
 import java.util.Collection;
 
 public class BookFullHistory {
-    private final Image image;
+    private final ImageURL imageURL;
     private final Collection<InventoryItemAction> inventoryItemActions;
 
-    public BookFullHistory(Image image, Collection<InventoryItemAction> inventoryItemActions) {
-        this.image = image;
+    public BookFullHistory(ImageURL imageURL, Collection<InventoryItemAction> inventoryItemActions) {
+        this.imageURL = imageURL;
         this.inventoryItemActions = inventoryItemActions;
     }
 }

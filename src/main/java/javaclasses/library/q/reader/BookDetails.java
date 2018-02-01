@@ -1,14 +1,16 @@
 package javaclasses.library.q.reader;
 
 import javaclasses.library.c.book.BookDescription;
-import javaclasses.library.c.book.ISBN;
 
 /**
  * Pop-up after click the book.
  */
 public class BookDetails {
-    private ISBN isbn;
-    private BookView bookView;
-    private BookDescription description;
+    private final BookView bookView;
+    private final BookDescription description;
 
+    public BookDetails(BookView bookView, BookDescription description) {
+        this.bookView = bookView;
+        this.description = description;
+    }
 }

@@ -1,6 +1,5 @@
-package javaclasses.library.c.book;
+package javaclasses.library.q;
 
-//Todo: add information to every status
 public enum BookStatus {
     BORROWED,
     RESERVED,

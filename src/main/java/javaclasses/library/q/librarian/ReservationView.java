@@ -1,15 +1,15 @@
 package javaclasses.library.q.librarian;
 
-import javaclasses.library.c.book.Image;
+import javaclasses.library.c.book.ImageURL;
 import javaclasses.library.q.librarian.valueobjects.ReservationVO;
 
 public class ReservationView {
 
-    private final Image image;
+    private final ImageURL imageURL;
     private final ReservationVO reservation;
 
-    public ReservationView(Image image, ReservationVO reservation) {
-        this.image = image;
+    public ReservationView(ImageURL imageURL, ReservationVO reservation) {
+        this.imageURL = imageURL;
         this.reservation = reservation;
     }
 }

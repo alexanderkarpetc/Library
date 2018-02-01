@@ -1,16 +1,21 @@
 package javaclasses.library.c.inventory.event;
 
-import javaclasses.library.c.inventory.Loan;
+import javaclasses.library.c.inventory.InventoryId;
+import javaclasses.library.c.inventory.LoanId;
 
 import java.util.Date;
 
 public class LoanPeriodExtended {
 
+    private final InventoryId inventoryId;
     private final LoanId loanId;
+    private final Date previousDueOnDate;
     private final Date newDueOnDate;
 
-    public LoanPeriodExtended(LoanId loanId, Date newDueOnDate) {
+    public LoanPeriodExtended(InventoryId inventoryId, LoanId loanId, Date previousDueOnDate, Date newDueOnDate) {
+        this.inventoryId = inventoryId;
         this.loanId = loanId;
+        this.previousDueOnDate = previousDueOnDate;
         this.newDueOnDate = newDueOnDate;
     }
 }

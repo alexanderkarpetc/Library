@@ -7,7 +7,11 @@ import java.util.List;
 
 public class InventoryViewByBook {
 
-    private InventoryVO inventory;
-    private List<LoanVO> loan;
+    private final InventoryVO inventory;
+    private final List<LoanVO> loan;
 
+    public InventoryViewByBook(InventoryVO inventory, List<LoanVO> loan) {
+        this.inventory = inventory;
+        this.loan = loan;
+    }
 }
