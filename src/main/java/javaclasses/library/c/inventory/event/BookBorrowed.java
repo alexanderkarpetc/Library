@@ -6,6 +6,9 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
+/**
+ * Triggers 'reservation became loan' if the book was reserved.
+ */
 public class BookBorrowed {
 
     private final InventoryId inventoryId;

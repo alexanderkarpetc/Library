@@ -11,6 +11,9 @@ public class BookUpdated {
     private final BookId bookId;
     private final BookVO currentBookVO;
     private final BookVO newBookVO;
+    /**
+     * Librarian id.
+     */
     private final UserId userId;
     private final Date whenUpdated;
 

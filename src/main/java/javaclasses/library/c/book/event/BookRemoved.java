@@ -9,14 +9,17 @@ import java.util.Date;
 public class BookRemoved {
 
     private final BookId bookId;
-    private final UserId userkId;
+    private final UserId librarianId;
     private final Date whenRemoved;
+    /**
+     * Explanation contains string value.
+     */
     private final BookRemoveReason whyRemoved;
 
 
-    public BookRemoved(BookId bookId, UserId userkId, Date whenRemoved, BookRemoveReason whyRemoved) {
+    public BookRemoved(BookId bookId, UserId librarianId, Date whenRemoved, BookRemoveReason whyRemoved) {
         this.bookId = bookId;
-        this.userkId = userkId;
+        this.librarianId = librarianId;
         this.whenRemoved = whenRemoved;
         this.whyRemoved = whyRemoved;
     }

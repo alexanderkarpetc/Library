@@ -3,7 +3,7 @@ package javaclasses.library.c.book;
 public class BookId {
 
     /**
-     * Given value from ISBN with base62.
+     * Contains ISBN base62.
      */
     private final ISBN62 isbn62;
 

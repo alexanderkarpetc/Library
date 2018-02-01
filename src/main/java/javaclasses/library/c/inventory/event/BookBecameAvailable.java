@@ -5,6 +5,10 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
+/**
+ * Event appears when either inventory appended or book returned and there is no reservation.
+ * Book becomes public available.
+ */
 public class BookBecameAvailable {
 
     private final InventoryId inventoryId;
