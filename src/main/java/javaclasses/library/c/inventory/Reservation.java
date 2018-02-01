@@ -1,6 +1,7 @@
-package javaclasses.library.c;
+package javaclasses.library.c.inventory;
 
 
+import javaclasses.library.c.UserId;
 import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
