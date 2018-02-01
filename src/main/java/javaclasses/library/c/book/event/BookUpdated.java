@@ -11,17 +11,14 @@ public class BookUpdated {
     private final BookId bookId;
     private final BookParameters currentBookParameters;
     private final BookParameters newBookParameters;
-    /**
-     * Librarian id.
-     */
-    private final UserId userId;
+    private final UserId librarianId;
     private final Date whenUpdated;
 
-    public BookUpdated(BookId bookId, BookParameters currentBookParameters, BookParameters newBookParameters, UserId userId, Date whenUpdated) {
+    public BookUpdated(BookId bookId, BookParameters currentBookParameters, BookParameters newBookParameters, UserId librarianId, Date whenUpdated) {
         this.bookId = bookId;
         this.currentBookParameters = currentBookParameters;
         this.newBookParameters = newBookParameters;
-        this.userId = userId;
+        this.librarianId = librarianId;
         this.whenUpdated = whenUpdated;
     }
 }

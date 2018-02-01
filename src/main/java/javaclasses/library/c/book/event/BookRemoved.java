@@ -12,7 +12,7 @@ public class BookRemoved {
     private final UserId librarianId;
     private final Date whenRemoved;
     /**
-     * Explanation contains string value.
+     * Reason contains string value.
      */
     private final BookRemoveReason whyRemoved;
 
