@@ -11,12 +11,12 @@ public class BookAdded {
     private final BookId bookId;
     private final Book book;
     private final UserId userId;
-    private final Date when;
+    private final Date whenAdded;
 
-    public BookAdded(BookId bookId, Book book, UserId userId, Date when) {
+    public BookAdded(BookId bookId, Book book, UserId userId, Date whenAdded) {
         this.bookId = bookId;
         this.book = book;
         this.userId = userId;
-        this.when = when;
+        this.whenAdded = whenAdded;
     }
 }

@@ -10,13 +10,13 @@ public class BookLost {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId userId;
+    private final UserId whoLost;
     private final Date whenLost;
 
-    public BookLost(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId, Date whenLost) {
+    public BookLost(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId whoLost, Date whenLost) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.userId = userId;
+        this.whoLost = whoLost;
         this.whenLost = whenLost;
     }
 }

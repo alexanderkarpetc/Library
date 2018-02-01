@@ -9,11 +9,11 @@ public class ReservationBecameLoan {
 
     private final InventoryId inventoryId;
     private final UserId userId;
-    private final Date when;
+    private final Date whenBecameLoan;
 
-    public ReservationBecameLoan(InventoryId inventoryId, UserId userId, Date when) {
+    public ReservationBecameLoan(InventoryId inventoryId, UserId userId, Date whenBecameLoan) {
         this.inventoryId = inventoryId;
         this.userId = userId;
-        this.when = when;
+        this.whenBecameLoan = whenBecameLoan;
     }
 }

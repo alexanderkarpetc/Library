@@ -10,14 +10,14 @@ public class BookRemoved {
 
     private final BookId bookId;
     private final UserId userkId;
-    private final Date whenRemove;
-    private final BookRemoveReason whyRemove;
+    private final Date whenRemoved;
+    private final BookRemoveReason whyRemoved;
 
 
-    public BookRemoved(BookId bookId, UserId userkId, Date whenRemove, BookRemoveReason whyRemove) {
+    public BookRemoved(BookId bookId, UserId userkId, Date whenRemoved, BookRemoveReason whyRemoved) {
         this.bookId = bookId;
         this.userkId = userkId;
-        this.whenRemove = whenRemove;
-        this.whyRemove = whyRemove;
+        this.whenRemoved = whenRemoved;
+        this.whyRemoved = whyRemoved;
     }
 }

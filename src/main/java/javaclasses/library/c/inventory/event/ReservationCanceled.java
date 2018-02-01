@@ -8,12 +8,12 @@ import java.util.Date;
 public class ReservationCanceled {
 
     private final InventoryId inventoryId;
-    private final UserId userId;
-    private final Date cancelationDate;
+    private final UserId whoCanceled;
+    private final Date whenCanceled;
 
-    public ReservationCanceled(InventoryId inventoryId, UserId userId, Date cancelationDate) {
+    public ReservationCanceled(InventoryId inventoryId, UserId whoCanceled, Date whenCanceled) {
         this.inventoryId = inventoryId;
-        this.userId = userId;
-        this.cancelationDate = cancelationDate;
+        this.whoCanceled = whoCanceled;
+        this.whenCanceled = whenCanceled;
     }
 }

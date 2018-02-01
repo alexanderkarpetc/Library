@@ -9,12 +9,12 @@ public class BookBecameAvailable {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final Date whenBecame;
+    private final Date whenBecameAvailable;
 
 
-    public BookBecameAvailable(InventoryId inventoryId, InventoryItemId inventoryItemId, Date whenBecame) {
+    public BookBecameAvailable(InventoryId inventoryId, InventoryItemId inventoryItemId, Date whenBecameAvailable) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.whenBecame = whenBecame;
+        this.whenBecameAvailable = whenBecameAvailable;
     }
 }

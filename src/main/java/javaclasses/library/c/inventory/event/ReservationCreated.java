@@ -10,12 +10,12 @@ public class ReservationCreated {
     private final InventoryId inventoryId;
     private final UserId userId;
     private final Date creationDate;
-    private final Date expectedOnDate;
+    private final Date expectOnDate;
 
-    public ReservationCreated(InventoryId inventoryId, UserId userId, Date creationDate, Date expectedOnDate) {
+    public ReservationCreated(InventoryId inventoryId, UserId userId, Date creationDate, Date expectOnDate) {
         this.inventoryId = inventoryId;
         this.userId = userId;
         this.creationDate = creationDate;
-        this.expectedOnDate = expectedOnDate;
+        this.expectOnDate = expectOnDate;
     }
 }

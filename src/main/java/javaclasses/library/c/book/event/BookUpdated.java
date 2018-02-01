@@ -12,13 +12,13 @@ public class BookUpdated {
     private final BookVO currentBookVO;
     private final BookVO newBookVO;
     private final UserId userId;
-    private final Date when;
+    private final Date whenUpdated;
 
-    public BookUpdated(BookId bookId, BookVO currentBookVO, BookVO newBookVO, UserId userId, Date when) {
+    public BookUpdated(BookId bookId, BookVO currentBookVO, BookVO newBookVO, UserId userId, Date whenUpdated) {
         this.bookId = bookId;
         this.currentBookVO = currentBookVO;
         this.newBookVO = newBookVO;
         this.userId = userId;
-        this.when = when;
+        this.whenUpdated = whenUpdated;
     }
 }
