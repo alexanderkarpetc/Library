@@ -5,6 +5,9 @@ import javaclasses.library.c.inventory.InventoryId;
 
 import java.util.Date;
 
+/**
+ * Successful finish of reservation.
+ */
 public class ReservationBecameLoan {
 
     private final InventoryId inventoryId;

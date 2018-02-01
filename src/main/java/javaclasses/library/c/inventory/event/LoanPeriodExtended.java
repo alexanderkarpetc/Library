@@ -5,6 +5,9 @@ import javaclasses.library.c.inventory.LoanId;
 
 import java.util.Date;
 
+/**
+ * Impossible when book is reserved by another user.
+ */
 public class LoanPeriodExtended {
 
     private final InventoryId inventoryId;

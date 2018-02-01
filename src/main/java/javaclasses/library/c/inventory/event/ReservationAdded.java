@@ -5,17 +5,15 @@ import javaclasses.library.c.inventory.InventoryId;
 
 import java.util.Date;
 
-public class ReservationCreated {
+public class ReservationAdded {
 
     private final InventoryId inventoryId;
     private final UserId userId;
     private final Date creationDate;
-    private final Date expectOnDate;
 
-    public ReservationCreated(InventoryId inventoryId, UserId userId, Date creationDate, Date expectOnDate) {
+    public ReservationAdded(InventoryId inventoryId, UserId userId, Date creationDate) {
         this.inventoryId = inventoryId;
         this.userId = userId;
         this.creationDate = creationDate;
-        this.expectOnDate = expectOnDate;
     }
 }

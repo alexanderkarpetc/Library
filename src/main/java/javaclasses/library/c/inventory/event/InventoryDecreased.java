@@ -7,12 +7,18 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
+/**
+ * Can cancel reservation if it is the last one in current inventory.
+ */
 public class InventoryDecreased {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
     private final UserId librarianId;
     private final Date whenDecreased;
+    /**
+     * Book can be lost or outdated.
+     */
     private final BookRemoveReason reason;
 
     public InventoryDecreased(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId librarianId, Date whenDecreased, BookRemoveReason reason) {

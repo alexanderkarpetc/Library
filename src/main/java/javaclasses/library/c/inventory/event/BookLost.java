@@ -6,6 +6,9 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
+/**
+ * User can report by his own that he lost the book or librarian can do the same action.
+ */
 public class BookLost {
 
     private final InventoryId inventoryId;
