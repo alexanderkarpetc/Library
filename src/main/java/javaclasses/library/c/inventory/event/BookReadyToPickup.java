@@ -6,17 +6,22 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
+/**
+ * Appears when either inventory appended or book returned.
+ * That means that book is available for 1 user to take it.
+ * In 2 days this opportunity disappear and his reservation expires.
+ */
 public class BookReadyToPickup {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId nextInQueue;
-    private final Date date;
+    private final UserId forWhom;
+    private final Date whenBecameReadyToPickup;
 
-    public BookReadyToPickup(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId nextInQueue, Date date) {
+    public BookReadyToPickup(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId forWhom, Date whenBecameReadyToPickup) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.nextInQueue = nextInQueue;
-        this.date = date;
+        this.forWhom = forWhom;
+        this.whenBecameReadyToPickup = whenBecameReadyToPickup;
     }
 }

@@ -2,9 +2,12 @@ package javaclasses.library.c.book;
 
 public class BookId {
 
-    private final String id;
+    /**
+     * Contains ISBN base62.
+     */
+    private final ISBN62 isbn62;
 
-    public BookId(String id) {
-        this.id = id;
+    public BookId(ISBN62 isbn62) {
+        this.isbn62 = isbn62;
     }
 }

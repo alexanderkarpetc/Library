@@ -1,4 +1,4 @@
-package javaclasses.library.c.book;
+package javaclasses.library.q;
 
 public enum BookStatus {
     BORROWED,

@@ -5,17 +5,16 @@ import javaclasses.library.c.inventory.InventoryId;
 
 import java.util.Date;
 
-public class ReservationCreated {
+public class ReservationPickUpPeriodExpired {
 
     private final InventoryId inventoryId;
     private final UserId userId;
-    private final Date creationDate;
-    private final Date expectedOnDate;
+    private final Date dueOnDate;
 
-    public ReservationCreated(InventoryId inventoryId, UserId userId, Date creationDate, Date expectedOnDate) {
+    public ReservationPickUpPeriodExpired(InventoryId inventoryId, UserId userId, Date dueOnDate) {
         this.inventoryId = inventoryId;
         this.userId = userId;
-        this.creationDate = creationDate;
-        this.expectedOnDate = expectedOnDate;
+        this.dueOnDate = dueOnDate;
     }
+
 }

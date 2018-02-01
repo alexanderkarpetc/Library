@@ -7,19 +7,19 @@ import javaclasses.library.c.inventory.InventoryItemId;
 import java.util.Date;
 
 /**
- * Appended book becomes or ready to pickup for the user who borrowed it or available.
+ * User can report by his own that he lost the book or librarian can do the same action.
  */
-public class InventoryAppended {
+public class BookLost {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId librarianId;
-    private final Date whenAppended;
+    private final UserId whoLost;
+    private final Date whenLost;
 
-    public InventoryAppended(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId librarianId, Date whenAppended) {
+    public BookLost(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId whoLost, Date whenLost) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.librarianId = librarianId;
-        this.whenAppended = whenAppended;
+        this.whoLost = whoLost;
+        this.whenLost = whenLost;
     }
 }

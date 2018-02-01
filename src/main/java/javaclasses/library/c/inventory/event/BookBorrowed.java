@@ -7,19 +7,19 @@ import javaclasses.library.c.inventory.InventoryItemId;
 import java.util.Date;
 
 /**
- * Appended book becomes or ready to pickup for the user who borrowed it or available.
+ * Triggers 'reservation became loan' if the book was reserved.
  */
-public class InventoryAppended {
+public class BookBorrowed {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId librarianId;
-    private final Date whenAppended;
+    private final UserId userId;
+    private final Date whenBorrowed;
 
-    public InventoryAppended(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId librarianId, Date whenAppended) {
+    public BookBorrowed(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId, Date whenBorrowed) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.librarianId = librarianId;
-        this.whenAppended = whenAppended;
+        this.userId = userId;
+        this.whenBorrowed = whenBorrowed;
     }
 }
