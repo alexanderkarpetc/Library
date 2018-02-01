@@ -2,25 +2,25 @@ package javaclasses.library.c.book.event;
 
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.BookId;
-import javaclasses.library.c.book.BookVO;
+import javaclasses.library.c.book.BookParameters;
 
 import java.util.Date;
 
 public class BookUpdated {
 
     private final BookId bookId;
-    private final BookVO currentBookVO;
-    private final BookVO newBookVO;
+    private final BookParameters currentBookParameters;
+    private final BookParameters newBookParameters;
     /**
      * Librarian id.
      */
     private final UserId userId;
     private final Date whenUpdated;
 
-    public BookUpdated(BookId bookId, BookVO currentBookVO, BookVO newBookVO, UserId userId, Date whenUpdated) {
+    public BookUpdated(BookId bookId, BookParameters currentBookParameters, BookParameters newBookParameters, UserId userId, Date whenUpdated) {
         this.bookId = bookId;
-        this.currentBookVO = currentBookVO;
-        this.newBookVO = newBookVO;
+        this.currentBookParameters = currentBookParameters;
+        this.newBookParameters = newBookParameters;
         this.userId = userId;
         this.whenUpdated = whenUpdated;
     }

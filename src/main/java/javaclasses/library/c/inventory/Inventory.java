@@ -6,6 +6,7 @@ import javaclasses.library.c.book.BookId;
 
 import java.util.ArrayList;
 import java.util.List;
+
 public class Inventory {
 
     private final InventoryId inventoryId;

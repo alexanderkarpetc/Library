@@ -1,8 +1,8 @@
 package javaclasses.library.c.book;
 
 import java.util.Collection;
-//Todo: rename to describe semantic of class.
-public class BookVO {
+
+public class BookParameters {
 
     private final ImageURL cover;
     private final BookTitle title;
@@ -10,7 +10,7 @@ public class BookVO {
     private final BookDescription description;
     private final Collection<Category> categories;
 
-    public BookVO(ImageURL cover, BookTitle title, Collection<Author> authors, BookDescription description, Collection<Category> categories) {
+    public BookParameters(ImageURL cover, BookTitle title, Collection<Author> authors, BookDescription description, Collection<Category> categories) {
         this.cover = cover;
         this.title = title;
         this.authors = authors;
