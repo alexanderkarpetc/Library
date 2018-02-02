@@ -5,17 +5,17 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
-public class LoanVO {
+public class LoanDetails {
 
     private final InventoryItemId inventoryItemId;
     private final UserId userId;
-    private final Date takeOnDate;
-    private final Date dueOnDate;
+    private final Date whenTaken;
+    private final Date whenDue;
 
-    public LoanVO(InventoryItemId inventoryItemId, UserId userId, Date takeOnDate, Date dueOnDate) {
+    public LoanDetails(InventoryItemId inventoryItemId, UserId userId, Date whenTaken, Date whenDue) {
         this.inventoryItemId = inventoryItemId;
         this.userId = userId;
-        this.takeOnDate = takeOnDate;
-        this.dueOnDate = dueOnDate;
+        this.whenTaken = whenTaken;
+        this.whenDue = whenDue;
     }
 }

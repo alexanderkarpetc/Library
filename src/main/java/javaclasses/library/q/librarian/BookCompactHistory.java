@@ -1,14 +1,14 @@
 package javaclasses.library.q.librarian;
 
 
-import javaclasses.library.q.librarian.valueobject.LoanVO;
+import javaclasses.library.q.librarian.valueobject.LoanDetails;
 
 import java.util.List;
 
 public class BookCompactHistory {
-    private final List<LoanVO> loans;
+    private final List<LoanDetails> loans;
 
-    public BookCompactHistory(List<LoanVO> loans) {
+    public BookCompactHistory(List<LoanDetails> loans) {
         this.loans = loans;
     }
 }
