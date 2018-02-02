@@ -6,6 +6,11 @@ import javaclasses.librarian.q.librarian.LoanDetails;
 
 import java.util.List;
 
+/**
+ * {@code BookCompactHistory} there are view with compact information about book’s loans.
+ * <p>
+ * On this screen librarian see all users that borrow book and the loan’s period.
+ */
 public class BookCompactHistory {
 
     private final BookCoverURL bookCoverURL;
