@@ -1,9 +1,9 @@
 package javaclasses.library.c.inventory.event;
 
 import javaclasses.library.c.UserId;
-import javaclasses.library.c.book.BookRemoveReason;
 import javaclasses.library.c.inventory.InventoryId;
 import javaclasses.library.c.inventory.InventoryItemId;
+import javaclasses.library.c.inventory.WriteBookOffReason;
 
 import java.util.Date;
 
@@ -19,9 +19,9 @@ public class InventoryDecreased {
     /**
      * Book can be lost or outdated.
      */
-    private final BookRemoveReason reason;
+    private final WriteBookOffReason reason;
 
-    public InventoryDecreased(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId librarianId, Date whenDecreased, BookRemoveReason reason) {
+    public InventoryDecreased(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId librarianId, Date whenDecreased, WriteBookOffReason reason) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
         this.librarianId = librarianId;

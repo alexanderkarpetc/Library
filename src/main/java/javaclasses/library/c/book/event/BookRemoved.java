@@ -2,7 +2,7 @@ package javaclasses.library.c.book.event;
 
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.BookId;
-import javaclasses.library.c.book.BookRemoveReason;
+import javaclasses.library.c.book.BookRemovalReason;
 
 import java.util.Date;
 
@@ -14,10 +14,10 @@ public class BookRemoved {
     /**
      * Reason contains string value.
      */
-    private final BookRemoveReason whyRemoved;
+    private final BookRemovalReason whyRemoved;
 
 
-    public BookRemoved(BookId bookId, UserId librarianId, Date whenRemoved, BookRemoveReason whyRemoved) {
+    public BookRemoved(BookId bookId, UserId librarianId, Date whenRemoved, BookRemovalReason whyRemoved) {
         this.bookId = bookId;
         this.librarianId = librarianId;
         this.whenRemoved = whenRemoved;

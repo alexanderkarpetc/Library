@@ -12,12 +12,12 @@ public class ReservationPickUpPeriodExpired {
 
     private final InventoryId inventoryId;
     private final UserId userId;
-    private final Date dueOnDate;
+    private final Date whenExpired;
 
-    public ReservationPickUpPeriodExpired(InventoryId inventoryId, UserId userId, Date dueOnDate) {
+    public ReservationPickUpPeriodExpired(InventoryId inventoryId, UserId userId, Date whenExpired) {
         this.inventoryId = inventoryId;
         this.userId = userId;
-        this.dueOnDate = dueOnDate;
+        this.whenExpired = whenExpired;
     }
 
 }

@@ -1,10 +1,10 @@
 package javaclasses.library.c.book;
 
-public class ImageURL {
+public class BookCoverURL {
 
     private final String url;
 
-    public ImageURL(String url) {
+    public BookCoverURL(String url) {
         this.url = url;
     }
 }

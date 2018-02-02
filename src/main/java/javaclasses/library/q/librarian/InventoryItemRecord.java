@@ -4,14 +4,22 @@ import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 
-public class InventoryItemAction {
+public class InventoryItemRecord {
     private final InventoryItemId inventoryItemId;
-    private final BookAction action;
+    private final BookRecord action;
     private final Date actionDate;
 
-    public InventoryItemAction(InventoryItemId inventoryItemId, BookAction action, Date actionDate) {
+    public InventoryItemRecord(InventoryItemId inventoryItemId, BookRecord action, Date actionDate) {
         this.inventoryItemId = inventoryItemId;
         this.action = action;
         this.actionDate = actionDate;
+    }
+
+    public enum BookRecord {
+        BORROWED,
+        RESERVED,
+        LOAN_PERIOD_EXTENDED,
+        RETURNED,
+        LOST
     }
 }

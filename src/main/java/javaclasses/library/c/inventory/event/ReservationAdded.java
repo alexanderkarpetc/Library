@@ -13,11 +13,11 @@ public class ReservationAdded {
 
     private final InventoryId inventoryId;
     private final UserId userId;
-    private final Date creationDate;
+    private final Date whenCreated;
 
-    public ReservationAdded(InventoryId inventoryId, UserId userId, Date creationDate) {
+    public ReservationAdded(InventoryId inventoryId, UserId userId, Date whenCreated) {
         this.inventoryId = inventoryId;
         this.userId = userId;
-        this.creationDate = creationDate;
+        this.whenCreated = whenCreated;
     }
 }

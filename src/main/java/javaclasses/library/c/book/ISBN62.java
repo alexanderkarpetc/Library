@@ -9,4 +9,8 @@ public class ISBN62 {
     public ISBN62(String value) {
         this.value = value;
     }
+
+    public String getValue() {
+        return value;
+    }
 }

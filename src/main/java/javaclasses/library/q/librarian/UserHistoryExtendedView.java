@@ -7,9 +7,9 @@ import java.util.List;
 
 public class UserHistoryExtendedView {
     private final UserId userId;
-    private final List<InventoryItemAction> action;
+    private final List<InventoryItemRecord> action;
 
-    public UserHistoryExtendedView(UserId userId, List<InventoryItemAction> action) {
+    public UserHistoryExtendedView(UserId userId, List<InventoryItemRecord> action) {
         this.userId = userId;
         this.action = action;
     }

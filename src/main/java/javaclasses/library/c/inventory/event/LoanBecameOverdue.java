@@ -12,11 +12,11 @@ public class LoanBecameOverdue {
     /**
      * Date when book was expected, so overdue period can be calculated.
      */
-    private final Date overdueDate;
+    private final Date whenOverdue;
 
-    public LoanBecameOverdue(InventoryId inventoryId, LoanId loanId, Date overdueDate) {
+    public LoanBecameOverdue(InventoryId inventoryId, LoanId loanId, Date whenOverdue) {
         this.inventoryId = inventoryId;
         this.loanId = loanId;
-        this.overdueDate = overdueDate;
+        this.whenOverdue = whenOverdue;
     }
 }

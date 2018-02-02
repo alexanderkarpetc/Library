@@ -1,9 +1,9 @@
 package javaclasses.library.c.book;
 
-public class BookRemoveReason {
+public class BookRemovalReason {
     private final String reason;
 
-    public BookRemoveReason(String reason) {
+    public BookRemovalReason(String reason) {
         this.reason = reason;
     }
 }

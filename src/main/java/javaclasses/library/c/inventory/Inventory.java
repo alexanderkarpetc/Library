@@ -10,7 +10,7 @@ public class Inventory {
 
     private final InventoryId inventoryId;
     private final BookId bookId;
-    private final List<ServiceListRecord> inventoryItems = new ArrayList<>();
+    private final List<InventoryItem> inventoryItems = new ArrayList<>();
     private final List<Reservation> reservations = new ArrayList<>();
     private final List<LoanId> loans = new ArrayList<>();
 

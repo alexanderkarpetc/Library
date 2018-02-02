@@ -12,13 +12,13 @@ public class LoanPeriodExtended {
 
     private final InventoryId inventoryId;
     private final LoanId loanId;
-    private final Date previousDueOnDate;
-    private final Date newDueOnDate;
+    private final Date previousDueDate;
+    private final Date newDueDate;
 
-    public LoanPeriodExtended(InventoryId inventoryId, LoanId loanId, Date previousDueOnDate, Date newDueOnDate) {
+    public LoanPeriodExtended(InventoryId inventoryId, LoanId loanId, Date previousDueDate, Date newDueDate) {
         this.inventoryId = inventoryId;
         this.loanId = loanId;
-        this.previousDueOnDate = previousDueOnDate;
-        this.newDueOnDate = newDueOnDate;
+        this.previousDueDate = previousDueDate;
+        this.newDueDate = newDueDate;
     }
 }
