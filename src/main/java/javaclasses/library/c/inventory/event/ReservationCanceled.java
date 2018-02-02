@@ -6,6 +6,8 @@ import javaclasses.library.c.inventory.InventoryId;
 import java.util.Date;
 
 /**
+ * An event fired when user or system cancel the reservation.
+ *
  * Can be canceled for these reasons:
  * <li>
  * <ol>User canceled reservation. In this case whoCanceled is id of reader.</ol>

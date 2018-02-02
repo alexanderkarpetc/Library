@@ -8,6 +8,8 @@ import javaclasses.library.c.inventory.RFID;
 import java.util.Date;
 
 /**
+ * An event fired when librarian add new items to inventory.
+ *
  * Appended book becomes or ready to pickup for the user who borrowed it or available.
  */
 public class InventoryAppended {

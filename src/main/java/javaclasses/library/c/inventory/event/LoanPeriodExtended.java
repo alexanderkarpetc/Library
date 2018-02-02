@@ -6,6 +6,8 @@ import javaclasses.library.c.inventory.LoanId;
 import java.util.Date;
 
 /**
+ * An event when user tried to extend his loan period and this attempt was successful.
+ *
  * Impossible when book is reserved by another user.
  */
 public class LoanPeriodExtended {

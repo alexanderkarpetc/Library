@@ -6,7 +6,7 @@ import javaclasses.library.c.inventory.InventoryId;
 import java.util.Date;
 
 /**
- * Successful finish of reservation.
+ * An event when the reservation was successfully finished.
  */
 public class ReservationBecameLoan {
 

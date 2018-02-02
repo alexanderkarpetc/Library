@@ -6,7 +6,13 @@ import javaclasses.library.c.book.BookDetails;
 
 import java.util.Date;
 
+/**
+ * An event when librarian add new book to the library.
+ *
+ * Also invokes inventory creation.
+ */
 public class BookAdded {
+
     /**
      * Generated value based on ISBN.
      */

@@ -7,6 +7,8 @@ import javaclasses.library.c.inventory.InventoryItemId;
 import java.util.Date;
 
 /**
+ * An event when user lost borrowed book.
+ *
  * User can report by his own that he lost the book or librarian can do the same action.
  */
 public class BookLost {

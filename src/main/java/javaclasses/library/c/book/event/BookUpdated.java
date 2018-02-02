@@ -6,6 +6,9 @@ import javaclasses.library.c.book.BookDetails;
 
 import java.util.Date;
 
+/**
+ * An event when librarian changes incorrect info about the book.
+ */
 public class BookUpdated {
 
     private final BookId bookId;

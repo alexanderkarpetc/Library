@@ -6,7 +6,7 @@ import javaclasses.library.c.inventory.InventoryId;
 import java.util.Date;
 
 /**
- * If 2 days passed, reservation period for borrowing book has expired.
+ * An event when user had 2 days to take the book but he didn't.
  */
 public class ReservationPickUpPeriodExpired {
 
