@@ -5,11 +5,11 @@ import javaclasses.library.c.inventory.InventoryId;
 /**
  * Appending inventory.
  */
-public class InventoryAppendView {
+public class AppendInventoryView {
 
     private final InventoryId inventoryId;
 
-    public InventoryAppendView(InventoryId inventoryId) {
+    public AppendInventoryView(InventoryId inventoryId) {
         this.inventoryId = inventoryId;
     }
 }
