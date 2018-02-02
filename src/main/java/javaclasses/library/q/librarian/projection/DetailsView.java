@@ -7,7 +7,11 @@ import javaclasses.library.q.reader.BookView;
 import java.time.Year;
 import java.util.List;
 
+/**
+ * Click on details in inventory.
+ */
 public class DetailsView {
+
     private final BookView bookView;
     private final Year editionYear;
     private final BookDescription description;

@@ -1,4 +1,4 @@
-package javaclasses.library.q.librarian.projection;
+package javaclasses.library.q.librarian;
 
 import javaclasses.library.c.book.*;
 

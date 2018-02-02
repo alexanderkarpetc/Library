@@ -1,15 +1,15 @@
 package javaclasses.library.q.librarian.projection;
 
-import javaclasses.library.c.inventory.InventoryItemId;
-import javaclasses.library.c.inventory.RFID;
+import javaclasses.library.c.inventory.InventoryId;
 
-import java.util.Map;
-import java.util.Optional;
-
+/**
+ * Appending inventory.
+ */
 public class InventoryAppendView {
-    private final Map<InventoryItemId, Optional<RFID>> newItems;
 
-    public InventoryAppendView(Map<InventoryItemId, Optional<RFID>> newItems) {
-        this.newItems = newItems;
+    private final InventoryId inventoryId;
+
+    public InventoryAppendView(InventoryId inventoryId) {
+        this.inventoryId = inventoryId;
     }
 }

@@ -4,6 +4,7 @@ import javaclasses.library.q.librarian.InventoryDetails;
 
 import java.util.List;
 
+//Todo [dima]
 public class InventoryView {
 
     private final List<InventoryDetails> books;

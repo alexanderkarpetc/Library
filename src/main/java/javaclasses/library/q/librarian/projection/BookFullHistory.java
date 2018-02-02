@@ -6,6 +6,7 @@ import javaclasses.library.q.librarian.InventoryItemRecord;
 import java.util.Collection;
 
 public class BookFullHistory {
+
     private final BookCoverURL bookCoverURL;
     private final Collection<InventoryItemRecord> inventoryItemRecords;
 
