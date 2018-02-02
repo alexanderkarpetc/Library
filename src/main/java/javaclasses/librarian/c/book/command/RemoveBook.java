@@ -4,7 +4,10 @@ import javaclasses.librarian.c.book.BookId;
 import javaclasses.librarian.c.book.BookRemovalReason;
 
 /**
- * A command to remove a new book.
+ * An attempt to remove the book.
+ *
+ * <p>In case of a successful command propagation, the book is removed.
+ * Cannot be applied to the missing book.
  */
 public class RemoveBook {
 

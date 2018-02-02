@@ -4,6 +4,12 @@ import javaclasses.librarian.c.UserId;
 import javaclasses.librarian.c.inventory.InventoryId;
 import javaclasses.librarian.c.inventory.InventoryItemId;
 
+/**
+ * An attempt to return the book.
+ *
+ * <p>In case of a successful command propagation, the book is returned.
+ * Cannot be applied to the missing or not borrowed book.
+ */
 public class ReturnBook {
 
     private final InventoryId inventoryId;
