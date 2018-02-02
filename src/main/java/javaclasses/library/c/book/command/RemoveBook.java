@@ -6,6 +6,9 @@ import javaclasses.library.c.book.BookRemovalReason;
 
 import java.util.Date;
 
+/**
+ * A command to remove a new book.
+ */
 public class RemoveBook {
 
     private final BookId bookId;

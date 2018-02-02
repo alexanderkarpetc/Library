@@ -6,6 +6,9 @@ import javaclasses.library.c.book.BookId;
 
 import java.util.Date;
 
+/**
+ * A command to create a new book.
+ */
 public class AddBook {
     //todo [dima] isbn
     private final BookId bookId;
