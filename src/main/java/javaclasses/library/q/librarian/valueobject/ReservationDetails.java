@@ -7,14 +7,14 @@ import javaclasses.library.c.book.BookTitle;
 import java.util.Date;
 import java.util.List;
 
-public class ReservationVO {
+public class ReservationDetails {
 
     private final BookTitle title;
     private final List<Author> authors;
     private final UserId userId;
     private final Date madeON;
 
-    public ReservationVO(BookTitle title, List<Author> authors, UserId userId, Date madeON) {
+    public ReservationDetails(BookTitle title, List<Author> authors, UserId userId, Date madeON) {
         this.title = title;
         this.authors = authors;
         this.userId = userId;
