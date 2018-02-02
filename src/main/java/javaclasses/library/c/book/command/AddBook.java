@@ -1,18 +1,18 @@
 package javaclasses.library.c.book.command;
 
-import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.BookDetails;
-import javaclasses.library.c.book.BookId;
-
-import java.util.Date;
+import javaclasses.library.c.book.ISBN;
 
 public class AddBook {
-    //todo [dima] isbn
-    private final BookId bookId;
+
+    /**
+     * We pass the ISBN of which will be generated {@code BookId};
+     */
+    private final ISBN isbn;
     private final BookDetails book;
 
-    public AddBook(BookId bookId, BookDetails book) {
-        this.bookId = bookId;
+    public AddBook(ISBN isbn, BookDetails book) {
+        this.isbn = isbn;
         this.book = book;
     }
 }
