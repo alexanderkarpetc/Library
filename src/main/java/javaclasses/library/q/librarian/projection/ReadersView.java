@@ -4,6 +4,9 @@ import javaclasses.library.q.librarian.UserDetails;
 
 import java.util.List;
 
+/**
+ * Library users and their summary.
+ */
 public class ReadersView {
     private final List<UserDetails> users;
 
