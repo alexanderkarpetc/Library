@@ -7,6 +7,8 @@ import javaclasses.library.c.inventory.InventoryItemId;
 import java.util.Date;
 
 /**
+ * Event when user borrows book.
+ *
  * Triggers 'reservation became loan' if the book was reserved.
  */
 public class BookBorrowed {

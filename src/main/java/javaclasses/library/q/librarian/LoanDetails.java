@@ -1,4 +1,4 @@
-package javaclasses.library.q.librarian.valueobject;
+package javaclasses.library.q.librarian;
 
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.inventory.InventoryItemId;
