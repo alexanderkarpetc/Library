@@ -7,9 +7,11 @@ import javaclasses.library.c.inventory.InventoryItemId;
 import java.util.Date;
 
 /**
+ * An event when  book is available for 1 user to take it.
+ *
  * Appears when either inventory appended or book returned.
- * That means that book is available for 1 user to take it.
- * In 2 days this opportunity disappear and his reservation expires.
+ *
+ * In 2 days this opportunity disappear and the reservation expires.
  */
 public class BookReadyToPickup {
 

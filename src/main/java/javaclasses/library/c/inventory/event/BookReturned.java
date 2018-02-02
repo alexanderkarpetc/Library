@@ -7,7 +7,9 @@ import javaclasses.library.c.inventory.InventoryItemId;
 import java.util.Date;
 
 /**
- * When user returns book his loan is finished and the book becomes or ready to pickup or available.
+ * An event when user returns book.
+ *
+ * User's loan is finished and the book becomes or ready to pickup or available.
  */
 public class BookReturned {
 

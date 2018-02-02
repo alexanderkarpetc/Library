@@ -5,6 +5,9 @@ import javaclasses.library.c.inventory.LoanId;
 
 import java.util.Date;
 
+/**
+ * An event fired when user's loan period is overdue.
+ */
 public class LoanBecameOverdue {
 
     private final InventoryId inventoryId;

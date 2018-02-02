@@ -8,6 +8,8 @@ import javaclasses.library.c.inventory.WriteBookOffReason;
 import java.util.Date;
 
 /**
+ * An event when librarian decrease current inventory.
+ *
  * Can cancel reservation if it is the last one in current inventory.
  */
 public class InventoryDecreased {

@@ -7,7 +7,7 @@ import javaclasses.library.c.book.BookId;
 import java.util.Date;
 
 public class AddBook {
-
+    //todo [dima] isbn
     private final BookId bookId;
     private final BookDetails book;
 
