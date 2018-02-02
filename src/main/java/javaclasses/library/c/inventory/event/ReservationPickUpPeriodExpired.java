@@ -19,5 +19,4 @@ public class ReservationPickUpPeriodExpired {
         this.userId = userId;
         this.whenExpired = whenExpired;
     }
-
 }
