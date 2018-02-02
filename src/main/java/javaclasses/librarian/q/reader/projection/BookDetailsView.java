@@ -4,7 +4,7 @@ import javaclasses.librarian.c.book.BookDescription;
 import javaclasses.librarian.q.reader.BookView;
 
 /**
- * Pop-up after click the book.
+ * Pop-up after click the book details.
  */
 public class BookDetailsView {
 
