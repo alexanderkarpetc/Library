@@ -4,7 +4,10 @@ import javaclasses.library.c.book.BookDetails;
 import javaclasses.library.c.book.ISBN;
 
 /**
- * A command to create a new book.
+ * An attempt to create the new book.
+ *
+ * <p>In case of a successful command propagation, the book is added.
+ * Cannot be applied to the existing book.
  */
 public class AddBook {
 

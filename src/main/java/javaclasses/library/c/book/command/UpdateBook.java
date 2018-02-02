@@ -4,7 +4,10 @@ import javaclasses.library.c.book.BookDetails;
 import javaclasses.library.c.book.BookId;
 
 /**
- * A command to update a new book.
+ * An attempt to update the book.
+ *
+ * <p>In case of a successful command propagation, the book is updated.
+ * Cannot be applied to the missing book.
  */
 public class UpdateBook {
 

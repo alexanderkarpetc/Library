@@ -4,7 +4,12 @@ import javaclasses.library.c.inventory.InventoryId;
 import javaclasses.library.c.inventory.InventoryItemId;
 import javaclasses.library.c.inventory.RFID;
 
-
+/**
+ * Append item to the book inventory.
+ *
+ * <p>In case of a successful command propagation,
+ * appended book becomes available or ready to pickup for the user who borrowed it.
+ */
 public class AppendInventory {
 
     private final InventoryId inventoryId;
