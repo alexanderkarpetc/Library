@@ -1,4 +1,6 @@
-package javaclasses.library.q.librarian;
+package javaclasses.library.q.librarian.projection;
+
+import javaclasses.library.q.librarian.LostBook;
 
 import java.util.List;
 

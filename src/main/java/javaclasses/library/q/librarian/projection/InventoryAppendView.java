@@ -1,4 +1,4 @@
-package javaclasses.library.q.librarian;
+package javaclasses.library.q.librarian.projection;
 
 import javaclasses.library.c.inventory.InventoryItemId;
 import javaclasses.library.c.inventory.RFID;

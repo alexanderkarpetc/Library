@@ -1,6 +1,7 @@
-package javaclasses.library.q.reader;
+package javaclasses.library.q.reader.projection;
 
 import javaclasses.library.c.book.BookDescription;
+import javaclasses.library.q.reader.BookView;
 
 /**
  * Pop-up after click the book.

@@ -3,11 +3,11 @@ package javaclasses.library.q.reader;
 import javaclasses.library.c.book.Author;
 import javaclasses.library.c.book.BookTitle;
 import javaclasses.library.c.book.BookCoverURL;
-import javaclasses.library.q.BookStatus;
 
 import java.util.List;
 
 public class BookView {
+
     private final BookCoverURL bookCoverURL;
     private final BookTitle title;
     private final List<Author> author;
@@ -18,5 +18,13 @@ public class BookView {
         this.title = title;
         this.author = author;
         this.status = status;
+    }
+
+    public enum BookStatus {
+        BORROWED,
+        RESERVED,
+        AVAILABLE,
+        EXPECTED_SOON,
+        OVERDUE
     }
 }

@@ -3,12 +3,14 @@ package javaclasses.library.q.librarian;
 import javaclasses.library.c.UserId;
 import javaclasses.library.c.book.Author;
 import javaclasses.library.c.book.BookTitle;
+import javaclasses.library.c.inventory.InventoryId;
 import javaclasses.library.c.inventory.InventoryItemId;
 
 import java.util.Date;
 import java.util.List;
 
 public class LostBook {
+
     private final InventoryItemId inventoryItemId;
     private final BookTitle bookTitle;
     private final List<Author> authors;

@@ -1,4 +1,6 @@
-package javaclasses.library.q.librarian;
+package javaclasses.library.q.librarian.projection;
+
+import javaclasses.library.q.librarian.InventoryDetails;
 
 import java.util.List;
 

@@ -1,7 +1,8 @@
-package javaclasses.library.q.librarian;
+package javaclasses.library.q.librarian.projection;
 
 
 import javaclasses.library.c.UserId;
+import javaclasses.library.q.librarian.InventoryItemRecord;
 
 import java.util.List;
 

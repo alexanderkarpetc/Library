@@ -1,6 +1,7 @@
-package javaclasses.library.q.librarian;
+package javaclasses.library.q.librarian.projection;
 
 import javaclasses.library.c.book.BookCoverURL;
+import javaclasses.library.q.librarian.ReservationDetails;
 
 public class ReservationView {
 
