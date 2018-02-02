@@ -7,7 +7,7 @@ import javaclasses.librarian.c.inventory.InventoryId;
  * An attempt to reserve the book.
  *
  * <p>In case of a successful command propagation, the book is reserved.
- * Cannot be applied if the book has already borrowed or reserved by current reader.
+ * <p>Cannot be applied if the book has already borrowed or reserved by current reader.
  */
 public class ReserveBook {
 

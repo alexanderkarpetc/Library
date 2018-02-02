@@ -7,7 +7,7 @@ import javaclasses.librarian.c.inventory.WriteBookOffReason;
  * An attempt to write off the book.
  *
  * <p>In case of a successful command propagation, the book is written off.
- * Cannot be applied to the missing book.
+ * <p>Cannot be applied to the missing book.
  */
 public class WriteBookOf {
 

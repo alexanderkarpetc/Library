@@ -7,7 +7,7 @@ import javaclasses.librarian.c.inventory.InventoryId;
  * An attempt to cancel the reservation.
  *
  * <p>In case of a successful command propagation, the reservation is canceled.
- * Cannot be applied to the missing reservation.
+ * <p>Cannot be applied to the missing reservation.
  */
 public class CancelReservation {
 

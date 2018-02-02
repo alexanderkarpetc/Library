@@ -8,7 +8,7 @@ import javaclasses.librarian.c.inventory.InventoryItemId;
  * An attempt to return the book.
  *
  * <p>In case of a successful command propagation, the book is returned.
- * Cannot be applied to the missing or not borrowed book.
+ * <p>Cannot be applied to the missing or not borrowed book.
  */
 public class ReturnBook {
 
