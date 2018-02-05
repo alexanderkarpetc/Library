@@ -16,11 +16,11 @@ public class BorrowBook {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId userId;
+    private final UserId whoBorrowed;
 
-    public BorrowBook(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId) {
+    public BorrowBook(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId whoBorrowed) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.userId = userId;
+        this.whoBorrowed = whoBorrowed;
     }
 }
