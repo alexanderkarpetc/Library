@@ -5,8 +5,8 @@ import javaclasses.librarian.c.book.BookId;
 
 /**
  * An attempt to update the book.
- *
- * <p>In case of a successful command propagation, the book is updated.
+ * <p>
+ * In case of a successful command propagation, the book is updated.
  * Cannot be applied to the missing book.
  */
 public class UpdateBook {
