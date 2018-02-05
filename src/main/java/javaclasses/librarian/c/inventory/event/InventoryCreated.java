@@ -5,7 +5,7 @@ import javaclasses.librarian.c.inventory.InventoryId;
 import java.util.Date;
 
 /**
- * An event when librarian add new book to the library.
+ * An event when librarian adds new book to the library.
  * <p>
  * React on BookAdded
  *

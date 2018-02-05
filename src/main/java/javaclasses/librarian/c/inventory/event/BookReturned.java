@@ -15,13 +15,13 @@ public class BookReturned {
 
     private final InventoryId inventoryId;
     private final InventoryItemId inventoryItemId;
-    private final UserId userId;
+    private final UserId whoReturned;
     private final Date whenReturned;
 
-    public BookReturned(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId userId, Date whenReturned) {
+    public BookReturned(InventoryId inventoryId, InventoryItemId inventoryItemId, UserId whoReturned, Date whenReturned) {
         this.inventoryId = inventoryId;
         this.inventoryItemId = inventoryItemId;
-        this.userId = userId;
+        this.whoReturned = whoReturned;
         this.whenReturned = whenReturned;
     }
 }

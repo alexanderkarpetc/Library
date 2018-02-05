@@ -5,7 +5,7 @@ import javaclasses.librarian.c.inventory.InventoryId;
 import java.util.Date;
 
 /**
- * An event fired when librarian remove book from the library.
+ * An event fired when librarian removes book from the library.
  * <p>
  * React on BookRemove.
  *

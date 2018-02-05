@@ -7,7 +7,7 @@ import javaclasses.librarian.c.book.BookRemovalReason;
 import java.util.Date;
 
 /**
- * An event when librarian remove book from library.
+ * An event when librarian removes book from library.
  * <p>
  * Impossible when at least one user borrowed it.
  * <p>
